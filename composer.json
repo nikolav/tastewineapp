@@ -1,0 +1,19 @@
+{
+    "name": "nikolav/tastewine",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Nikolav\\Tastewine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "nikolav",
+            "email": "admin@nikolav.rs"
+        }
+    ],
+    "require": {
+        "slim/slim": "^4.8",
+        "nikolav/dblite-php": "dev-master"
+    }
+}
